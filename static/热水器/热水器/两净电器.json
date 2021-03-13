@@ -1,0 +1,28 @@
+#1 
+{
+  "ResponseID": 0,
+  "Message": "",
+  "Data": {
+      "TotalRows": 1,
+      "TotalPages": 1,
+      "GoodsList": [
+          {
+              "ProType": 4,
+              "ProId": 113459,
+              "ProName": "美的净水器MC122-2水龙头过滤器家用净水机厨房前置自来水滤水器(白色)(白色)",
+              "Images": "https://img.jdhui.com/u/images/2020/202008/20200826/2876eca5fecc43ffa7ac3cc30c500943.jpg,https://img.jdhui.com/u/images/2020/202008/20200826/2c78cee2101249d28e29338b703b5cff.jpg,https://img.jdhui.com/u/images/2020/202008/20200826/93d17205548f4416b9261f0d8f5a71e5.jpg,https://img.jdhui.com/u/images/2020/202008/20200826/77f7d6c0e5e245d4810ab1bedfea95b4.jpg",
+              "SpecStr": "白色",
+              "IsSecKill": 0,
+              "IsTop": 0,
+              "SkId": 0,
+              "IsHaveAcitivity": 0,
+              "ProPrice": 105.00,
+              "PriceUnderline": 105.00,
+              "ClubSN": "m4703407",
+              "PartnerSN": "",
+              "Amount": 0,
+              "Source": "JDH"
+          }
+      ]
+  }
+}

@@ -1,0 +1,582 @@
+{
+  "ResponseID": 0,
+  "Message": "",
+  "Data": {
+      "ClubSN": "m4703407",
+      "PartnerSN": "",
+      "ShopTemplateId": 3,
+      "ShopName": "优品易购",
+      "ShopPhone": "18650755265",
+      "ShopLogo": "https://img.jdhui.com/u/2018/201810/20181024/915ef580ad3242c898aaa186c611161e.jpg",
+      "Ads": [
+        {
+            "ADImageUrl": "https://img.jdhui.com/u/images/2021/202103/20210308/679fbdd9e5ae473e9831bdfc7d1881c4.jpg",
+            "ADTitle": "旧要换新",
+            "ADType": "",
+            "ADLinkUrl": ""
+        },
+        {
+            "ADImageUrl": "https://img.jdhui.com/u/images/2020/202010/20201020/6e94c2d3709b41598975b1e53b91ede3.png",
+            "ADTitle": "家电盛典",
+            "ADType": "",
+            "ADLinkUrl": "https://ms.jdhui.com/?ClubSN=m4703407&PartnerSN=#/goods/goodsCategory?categoryId=55"
+        },
+        {
+            "ADImageUrl": "https://img.jdhui.com/u/images/2020/202010/20201020/4bbb1b754ace45a3b6ef5611a2d68e8e.png",
+            "ADTitle": "冰箱",
+            "ADType": "",
+            "ADLinkUrl": "https://ms.jdhui.com/?ClubSN=m4703407&PartnerSN=#/goods/goodsCategory?categoryId=55"
+        }
+      ],
+      "Article": [
+          {
+              "Title": "【年初八 】 开工大吉",
+              "ArticleId": 352,
+              "Image": "https://img.jdhui.com/u/images/2021/202102/20210208/5755c4c9845a4459ba84e2728adc14fb.png"
+          },
+          {
+              "Title": "【年初七】雨水至福气来",
+              "ArticleId": 351,
+              "Image": "https://img.jdhui.com/u/images/2021/202102/20210208/138e47ec85254be0a673381c18be08c3.png"
+          },
+          {
+              "Title": "【年初六】 欢送穷神旺足一整年",
+              "ArticleId": 350,
+              "Image": "https://img.jdhui.com/u/images/2021/202102/20210208/aa7d6f17559e45ad99b971b1bded1b4e.png"
+          }
+      ],
+      "Category": [
+          {
+              "Name": "净水设备",
+              "Image": "http://img.jdhui.com/u/7824279bc40346fabe745014702ba2e7.png",
+              "CategoryId": 154
+          },
+          {
+              "Name": "冰箱",
+              "Image": "https://img.jdhui.com/u/images/2020/202006/20200618/3b7536c0efde4567887d87e59d661555.jpg",
+              "CategoryId": 55
+          },
+          {
+              "Name": "电视",
+              "Image": "https://img.jdhui.com/u/images/2020/202006/20200618/88130720770a4a59a340637d490ad669.png",
+              "CategoryId": 48
+          },
+          {
+              "Name": "洗衣机",
+              "Image": "https://img.jdhui.com/u/images/2020/202006/20200618/07780e1fd36c456db82206722615ec17.jpg",
+              "CategoryId": 56
+          },
+          {
+              "Name": "空调",
+              "Image": "https://img.jdhui.com/u/images/2020/202006/20200618/110df2eb0ce14e40bd31cebb83baefa5.png",
+              "CategoryId": 57
+          },
+          {
+              "Name": "热水器",
+              "Image": "https://img.jdhui.com/u/images/2020/202006/20200618/51f1e3fabd74469e90d6911fdd8496e6.jpg",
+              "CategoryId": 58
+          },
+          {
+              "Name": "油烟机",
+              "Image": "https://img.jdhui.com/u/images/2020/202006/20200618/ab18c0441c8f41b68b331dc38ba75b53.png",
+              "CategoryId": 59
+          },
+          {
+              "Name": "厨卫",
+              "Image": "https://img.jdhui.com/u/images/2020/202006/20200618/f2df8687aa144bb897d66772c4bd8572.jpg",
+              "CategoryId": 63
+          },
+          {
+              "Name": "小家电",
+              "Image": "https://img.jdhui.com/u/images/2020/202006/20200618/eec0dacb0d204bf98949c3620d45e9b5.png",
+              "CategoryId": 60
+          },
+          {
+              "Name": "风扇",
+              "Image": "https://img.jdhui.com/u/images/2020/202006/20200618/88680509335f4e7db2bc29cb757c0e82.png",
+              "CategoryId": 61
+          },
+          {
+              "Name": "生活小电",
+              "Image": "https://img.jdhui.com/u/images/2020/202005/20200506/f8af7f5dcbd64cb5bef226cf273c8cab.png",
+              "CategoryId": 62
+          },
+          {
+              "Name": "燃气热水器",
+              "Image": "http://img.jdhui.com/u/5f3dd15aeb6b4737997899f14afda4c2.png",
+              "CategoryId": 374
+          },
+          {
+              "Name": "两净电器",
+              "Image": "https://img.jdhui.com/u/images/2020/202004/20200430/2018b729389740be87c9a94a6575e957.jpg",
+              "CategoryId": 854
+          },
+          {
+              "Name": "手机通讯",
+              "Image": "https://img.jdhui.com/u/images/2020/202006/20200603/8bb6bde7ed7440ee88f0cd664d13584a.png",
+              "CategoryId": 935
+          }
+      ],
+      "IsShowDistributionActivity": 0,
+      "TimeStart": "",
+      "TimeEnd": "",
+      "DistributionActivityGoodsDetails": [
+          
+      ],
+      "Floor": [
+          {
+              "FloorName": "主推爆款",
+              "CategoryId": 0,
+              "GoodsList": [
+                  {
+                      "ProName": "Haier/海尔空调 KFR-35GW/83@U1-Tm 1.5匹变频一级能效挂机空调(1.5匹)(1.5匹)",
+                      "ProId": 117030,
+                      "ProPrice": 2599.00,
+                      "Images": "https://img.jdhui.com/u/images/2021/202103/20210305/08a38c3b07034ac0b8cb71f291612fde.jpg,https://img.jdhui.com/u/images/2021/202103/20210305/a1c69804af194416838a6ca220abc4e5.jpg,https://img.jdhui.com/u/images/2021/202103/20210305/72e03fdd70aa4545926513f0c9491f91.jpg,https://img.jdhui.com/u/images/2021/202103/20210305/7ae2c43f15a048ff9a83dc84d896a309.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "长虹(CHANGHON G)58D4P 58英寸全面屏4K超高清电视HDR轻薄平板LED液晶（黑色）(58寸)(58寸)",
+                      "ProId": 117008,
+                      "ProPrice": 2290.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202007/20200718/73fcc02e4329494988f945702b884aa6.jpg,https://img.jdhui.com/u/images/2020/202007/20200718/418f6929a79549bf8dd67d4822585a40.jpg,https://img.jdhui.com/u/images/2020/202007/20200718/3291c224d54043718f0d20af8e7c7343.jpg,https://img.jdhui.com/u/images/2020/202007/20200718/82abc76996b248d1b3cdab405f65e2c2.jpg,https://img.jdhui.com/u/images/2020/202007/20200718/0f8ca77fa17a48469eda50b91e20a900.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "长虹 65D6H 65英寸超薄语音智慧屏AIoT物联 人工智能全面屏4KHDR液晶LED电视机(65寸)(65寸)",
+                      "ProId": 117007,
+                      "ProPrice": 3899.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202012/20201210/6189373b9eaa45ebb31545d65bbd8d50.jpg,https://img.jdhui.com/u/images/2020/202012/20201210/9034cafcfdcc4801a905059d21ac3b12.jpg,https://img.jdhui.com/u/images/2020/202012/20201210/b01fa8e8d4e14efa841b79cbfd71ca81.jpg,https://img.jdhui.com/u/images/2020/202012/20201210/0cdf43ecfd8d461f9dd02bd25b742faf.jpg,https://img.jdhui.com/u/images/2020/202012/20201210/88c625eb93354fbb85ecc88fd0d9eb22.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "美的冰箱（Midea） BCD-535WKZM(E)冰箱双开门对开门风冷无霜智能电家用(波光金)(波光金)",
+                      "ProId": 117006,
+                      "ProPrice": 2899.00,
+                      "Images": "http://img.jdhui.com/u/468d65bb501a4d4981c286779577cf36.jpg,http://img.jdhui.com/u/0808defee43a4dd69ef3ed85cf30eb52.jpg,http://img.jdhui.com/u/49889a04e60242aaa39739baca7682cc.jpg,http://img.jdhui.com/u/24d2ee4186fe4baf860e6b6affab4e38.jpg,http://img.jdhui.com/u/9a0644a0978c421393fb820393ed5f97.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  }
+              ]
+          },
+          {
+              "FloorName": "净水设备",
+              "CategoryId": 154,
+              "GoodsList": [
+                  {
+                      "ProName": "海尔统帅净水机LRO50-5（XJS）升级版(50－5)",
+                      "ProId": 2065143,
+                      "ProPrice": 2680.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202003/20200303/711733191490468383fa83683496595d.png,https://img.jdhui.com/u/images/2020/202003/20200303/a2f86823466647108723487dbe2fceb6.png,https://img.jdhui.com/u/images/2020/202003/20200303/d39d63c18e464ddfb11b60cef760d159.png,https://img.jdhui.com/u/images/2020/202003/20200303/38b47118786646cb8f5dec8dbb6d38b0.png",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  },
+                  {
+                      "ProName": "海尔施特劳斯HSW-GX6土豪金色(客厅)",
+                      "ProId": 37458,
+                      "ProPrice": 1099.00,
+                      "Images": "https://image.jdhui.com/goods/34/17/ba0292a1329d463986738feaa78d1c22.png,https://image.jdhui.com/goods/9/9/2cd1925f644f4224b04f9d3cabfc5651.png,https://image.jdhui.com/goods/21/6/2e9d3bd9a42b4a3e9ad45d5408373b61.png,https://image.jdhui.com/goods/29/33/59aba52461034c328b4cba0837c64659.png",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  },
+                  {
+                      "ProName": "海尔HRO50-5G(50G)",
+                      "ProId": 2054520,
+                      "ProPrice": 2980.00,
+                      "Images": "https://img.jdhui.com/u/2019/201904/20190412/e7a1fcefe2b4456ebe53acc9511b15b8.jpg,https://img.jdhui.com/u/2019/201904/20190412/b64ff70db0c240a385ec615b90268625.jpg,https://img.jdhui.com/u/2019/201904/20190412/bc003a527ea4487d86a08a116ec98841.jpg,https://img.jdhui.com/u/2019/201904/20190412/a568616fa3e44213aaaff4681ce4fbfc.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  },
+                  {
+                      "ProName": "海尔施特劳斯HSNF-1800J0(纳滤净水机)",
+                      "ProId": 2044786,
+                      "ProPrice": 4999.00,
+                      "Images": "https://img.jdhui.com/u/2018/201812/20181223/1f259f4344bc4c99a5848bcb51534095.jpg,https://img.jdhui.com/u/2018/201812/20181223/32c389860cb248e3b3824e13399be3de.jpg,https://img.jdhui.com/u/2018/201812/20181223/a6fc738e7cf8435e833a809545265863.jpg,https://img.jdhui.com/u/2018/201812/20181223/be800622fe9448fd89064febbd2e6e7b.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  },
+                  {
+                      "ProName": "海尔HU601-2500（升级版）金色(厨房台下式)",
+                      "ProId": 37502,
+                      "ProPrice": 3980.00,
+                      "Images": "https://image.jdhui.com/goods/29/17/8e8ad4ff5f264ad3b2a096039aa1f5e2.jpg,https://image.jdhui.com/goods/29/8/6c57b5877e1f45c88642c6297255a756.jpg,https://image.jdhui.com/goods/14/6/05c037a8d244441f96f7284f0e9e28c3.jpg,https://image.jdhui.com/goods/29/0/ab11cf7bdc2649b5aef05efd4c653e55.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  },
+                  {
+                      "ProName": "海尔净水机HRO5H91-5(500G)",
+                      "ProId": 2060700,
+                      "ProPrice": 4999.00,
+                      "Images": "https://img.jdhui.com/u/2019/201907/20190713/be4ea6520bbd4c719eae7e18f65af464.png,https://img.jdhui.com/u/2019/201907/20190713/7aa3be4b7e0c420ab116eae7049996ab.png,https://img.jdhui.com/u/2019/201907/20190713/f406bb84d7c84f8ca4e995043bbfd61a.png,https://img.jdhui.com/u/2019/201907/20190713/2ffb1fb91a534d1fad0a8c5b146639d6.png",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  }
+              ]
+          },
+          {
+              "FloorName": "冰箱",
+              "CategoryId": 55,
+              "GoodsList": [
+                  {
+                      "ProName": "美的冰箱（Midea） BCD-621WKPZM(E)) 621升 对开门 智能 变频 风冷 家用 电冰箱(阳光米)",
+                      "ProId": 2047140,
+                      "ProPrice": 3699.00,
+                      "Images": "https://img.jdhui.com/u/9efe67efdbd94336a18153341af7e773.jpg,https://img.jdhui.com/u/dec55834f5c54d40b3630ac51dfd6940.jpg,https://img.jdhui.com/u/0cad931a28594f1aa75380dc4e255870.jpg,https://img.jdhui.com/u/cc053e054e984f7dba43ff76bb2e4bda.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  },
+                  {
+                      "ProName": "美的冰箱（Midea） BCD-535WKZM(E)冰箱双开门对开门风冷无霜智能电家用(波光金)(波光金)",
+                      "ProId": 117006,
+                      "ProPrice": 2899.00,
+                      "Images": "http://img.jdhui.com/u/468d65bb501a4d4981c286779577cf36.jpg,http://img.jdhui.com/u/0808defee43a4dd69ef3ed85cf30eb52.jpg,http://img.jdhui.com/u/49889a04e60242aaa39739baca7682cc.jpg,http://img.jdhui.com/u/24d2ee4186fe4baf860e6b6affab4e38.jpg,http://img.jdhui.com/u/9a0644a0978c421393fb820393ed5f97.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "西门子(SIEMENS)KX50NA43TI家用大容量风冷无霜嵌入502升变频解冻对开门电冰箱(晨雾灰)(晨雾灰)",
+                      "ProId": 116864,
+                      "ProPrice": 5699.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202003/20200325/f7cad42957794f098199463c07821f65.jpg,https://img.jdhui.com/u/images/2020/202003/20200325/33c4109a975b4b64bbdaa95917b34954.jpg,https://img.jdhui.com/u/images/2020/202003/20200325/4d39655b549f44038fb6a986cb4c54ee.jpg,https://img.jdhui.com/u/images/2020/202003/20200325/04042eeea732422895fdb24814db0cf2.jpg,https://img.jdhui.com/u/images/2020/202003/20200325/6fdfe0273c6c4a248ef9af3ee00938db.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "西门子（SIEMENS）对开门608升大容量风冷无霜变频节能双门家用智能WIFI冰箱KA92NV95TI(珍珠灰)(珍珠灰)",
+                      "ProId": 116863,
+                      "ProPrice": 7299.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202003/20200325/1e1f5827bf224bf895ce736a681378fd.jpg,https://img.jdhui.com/u/images/2020/202003/20200325/8bc6fd5422d347d0bcc7d22d26767e82.jpg,https://img.jdhui.com/u/images/2020/202003/20200325/70b9e017ad144cc88f9522304598408b.jpg,https://img.jdhui.com/u/images/2020/202003/20200325/bb274067efae44e987f531b87adc86ea.jpg,https://img.jdhui.com/u/images/2020/202003/20200325/7d614bb53eb34e47b75c7e5609eb3247.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "西门子 (SIEMENS) KM45FA42TI 448升 变频 零度保鲜 混冷无霜 十字对开多门冰箱(拉丝银)(拉丝银)",
+                      "ProId": 116822,
+                      "ProPrice": 8399.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202003/20200325/554bea9a04f24103982f448f0a3ead6d.jpg,https://img.jdhui.com/u/images/2020/202003/20200325/e4cc4a91fedf41f7a7a49cb45e469300.jpg,https://img.jdhui.com/u/images/2020/202003/20200325/2eb5cde1dc524dad81dbd8f8351e4785.jpg,https://img.jdhui.com/u/images/2020/202003/20200325/a181d836cec646a98498ea10b7a1debb.jpg,https://img.jdhui.com/u/images/2020/202003/20200325/c414f39cbcab4ceba8d564c93a55a6a2.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "奥马(Homa) BCD-252WF金 冰箱家用 法式多门 双开门 四开门 三门风冷无霜 超纤薄电冰箱(金色)(金色)",
+                      "ProId": 116352,
+                      "ProPrice": 2099.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202004/20200403/4b3becb5bf3845acbb627aab142303bd.jpg,https://img.jdhui.com/u/images/2020/202004/20200403/9234777f86c642b888f48c1d6e1cdd04.jpg,https://img.jdhui.com/u/images/2020/202004/20200403/258412f731e649da8dc4656f57681f6c.jpg,https://img.jdhui.com/u/images/2020/202004/20200403/eb0a9076433a4be7a9f4f4b7936f8714.jpg,https://img.jdhui.com/u/images/2020/202004/20200403/6389ccfb6f3b4400bc4341dccb0c6b10.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  }
+              ]
+          },
+          {
+              "FloorName": "电视",
+              "CategoryId": 48,
+              "GoodsList": [
+                  {
+                      "ProName": "长虹(CHANGHON G)58D4P 58英寸全面屏4K超高清电视HDR轻薄平板LED液晶（黑色）(58寸)(58寸)",
+                      "ProId": 117008,
+                      "ProPrice": 2290.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202007/20200718/73fcc02e4329494988f945702b884aa6.jpg,https://img.jdhui.com/u/images/2020/202007/20200718/418f6929a79549bf8dd67d4822585a40.jpg,https://img.jdhui.com/u/images/2020/202007/20200718/3291c224d54043718f0d20af8e7c7343.jpg,https://img.jdhui.com/u/images/2020/202007/20200718/82abc76996b248d1b3cdab405f65e2c2.jpg,https://img.jdhui.com/u/images/2020/202007/20200718/0f8ca77fa17a48469eda50b91e20a900.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "长虹 65D6H 65英寸超薄语音智慧屏AIoT物联 人工智能全面屏4KHDR液晶LED电视机(65寸)(65寸)",
+                      "ProId": 117007,
+                      "ProPrice": 3899.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202012/20201210/6189373b9eaa45ebb31545d65bbd8d50.jpg,https://img.jdhui.com/u/images/2020/202012/20201210/9034cafcfdcc4801a905059d21ac3b12.jpg,https://img.jdhui.com/u/images/2020/202012/20201210/b01fa8e8d4e14efa841b79cbfd71ca81.jpg,https://img.jdhui.com/u/images/2020/202012/20201210/0cdf43ecfd8d461f9dd02bd25b742faf.jpg,https://img.jdhui.com/u/images/2020/202012/20201210/88c625eb93354fbb85ecc88fd0d9eb22.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "JVC LT-40MCJ380  超维智能互联网LED电视超窄边框面板高清(40寸)(40寸)",
+                      "ProId": 116821,
+                      "ProPrice": 1099.00,
+                      "Images": "https://img.jdhui.com/u/images/2021/202101/20210127/7afa02fbd09a4e7db5a6c2da159cd54b.jpg,https://img.jdhui.com/u/images/2021/202101/20210127/b2ee4e61108944bdab3276aefa655522.jpg,https://img.jdhui.com/u/images/2021/202101/20210127/0d2b91f0fd504a81b7369235838c61a0.jpg,https://img.jdhui.com/u/images/2021/202101/20210127/a693d3e0caf644cd95e07b849547ee2f.jpg,https://img.jdhui.com/u/images/2021/202101/20210127/5f617fab17d14a48bf0117ba749e4f34.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "长虹 55D6H 55英寸超薄语音智慧屏AIoT物联 人工智能全面屏4KHDR液晶LED电视机(55寸)(55寸)",
+                      "ProId": 116820,
+                      "ProPrice": 3499.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202012/20201210/9bba83ca9f4d45aaa454fecd35eeaa46.jpg,https://img.jdhui.com/u/images/2020/202012/20201210/ffc0b0f7005145049a19da8420fb8ad6.jpg,https://img.jdhui.com/u/images/2020/202012/20201210/07b21aa415af4aa5bc651cf7ba4848b7.jpg,https://img.jdhui.com/u/images/2020/202012/20201210/ec8e26c4d83a40c388ffd4c860f530d2.jpg,https://img.jdhui.com/u/images/2020/202012/20201210/96831950521b4d2cadc18c83846f0b39.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "酷开70C70 酷开智慧屏 C70 70英寸4K 光学防蓝光 免遥控声控 护眼教育电视 MEMC防抖 2+32G 智能液晶电视 (70寸)(70寸)",
+                      "ProId": 116819,
+                      "ProPrice": 3399.00,
+                      "Images": "https://img.jdhui.com/u/images/2021/202101/20210128/6625e1847290489eaa0415a54ae9a7b3.jpg,https://img.jdhui.com/u/images/2021/202101/20210128/c1c17ee3cbcb40698487110eedc23129.jpg,https://img.jdhui.com/u/images/2021/202101/20210128/c121b3be676c46cdbebd3e59dc7011a2.jpg,https://img.jdhui.com/u/images/2021/202101/20210128/2f1da7d416f942559a0e48e51367cbe2.jpg,https://img.jdhui.com/u/images/2021/202101/20210128/31cbce73947248b0b54360a4b933b0eb.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "TCL 65T780 65英寸液晶平板电视机 超薄金属智慧全面屏 原色高色域 8K解码 2+32GB大内存 教育电视(65寸,黑色)(65寸,黑色)",
+                      "ProId": 116818,
+                      "ProPrice": 5999.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202010/20201014/b3fe3fba63fc402da8ebfba595912394.jpg,https://img.jdhui.com/u/images/2020/202010/20201014/56290c5b32874a7b939a57d2682416ce.jpg,https://img.jdhui.com/u/images/2020/202010/20201014/a04cc4c4fe6a4b46b64445bbc617fcfe.png,https://img.jdhui.com/u/images/2020/202010/20201014/f35802a64170411eba5fd204ebf15c8a.png,https://img.jdhui.com/u/images/2020/202010/20201014/8c06d2115e1743dbb6117e3e39da01ef.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  }
+              ]
+          },
+          {
+              "FloorName": "洗衣机",
+              "CategoryId": 56,
+              "GoodsList": [
+                  {
+                      "ProName": "西门子(SIEMENS)洗衣机官方旗舰10公斤全自动变频滚筒大容量 洗烘一体WN54A1X00W(白色)(白色)",
+                      "ProId": 116865,
+                      "ProPrice": 5699.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202003/20200325/ebe35e90a98c46fabc1c3caa919d246f.jpg,https://img.jdhui.com/u/images/2020/202003/20200325/3aeebbcb36e842ceb8b38bad81ea66a8.jpg,https://img.jdhui.com/u/images/2020/202003/20200325/4a1d1c70310844b0acaa3ab0b00d5742.jpg,https://img.jdhui.com/u/images/2020/202003/20200325/8b65fca1ce244e45bc31d8721c948770.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "海尔（Haier）10KG全自动波轮洗衣机 大容量 海立方内筒 智能预约 XQB100-Z106 10公斤波轮洗衣机(10公斤以上,月光灰)(10公斤以上,月光灰)",
+                      "ProId": 116830,
+                      "ProPrice": 1199.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202010/20201030/da855c44f00e4a6da45d6e988ee74265.jpg,https://img.jdhui.com/u/images/2020/202010/20201030/fe6198d70113464492a9a30a8cbc9d33.png,https://img.jdhui.com/u/images/2020/202010/20201030/19f39b7cceb84de2995b9fda15b9c185.jpg,https://img.jdhui.com/u/images/2020/202010/20201030/9123547e4ef74f8b9c42c82446eecf61.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "海尔（Haier） G100108HB12G  10公斤滚筒洗衣机 变频节能 洗烘干一体机 空气洗 除螨杀菌(金色)(金色)",
+                      "ProId": 116828,
+                      "ProPrice": 2599.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202006/20200611/6b19b22cef94403885633fc923101dfc.jpg,https://img.jdhui.com/u/images/2020/202006/20200611/f578dde063b24db4baecfa6beacbf82c.jpg,https://img.jdhui.com/u/images/2020/202006/20200611/15640421eb1d43abbedce00ae4b51081.jpg,https://img.jdhui.com/u/images/2020/202006/20200611/a4a29ef2fb364016ab376a93086cfdbf.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "海尔（Haier) G100108B12G  10公斤滚筒洗衣机全自动变频节能大容量 新款巴氏杀菌 香薰/除菌 (金色)(金色)",
+                      "ProId": 116827,
+                      "ProPrice": 1799.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202010/20201005/eb5b807673eb4304a934b95836375cdb.jpg,https://img.jdhui.com/u/images/2020/202010/20201005/d3aa036792514a579f5b522484c223b0.jpg,https://img.jdhui.com/u/images/2020/202010/20201005/044e21dfee374581ad3a034c8d01343e.jpg,https://img.jdhui.com/u/images/2020/202010/20201005/edc096fea5064bd3a4e3a2c7001bab24.jpg,https://img.jdhui.com/u/images/2020/202010/20201005/2a8f47d3aea74975bfde619562faaa74.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "美的洗衣机（Midea） MD100V332DG5 滚筒洗衣机洗烘一体带烘干全自动 10公斤大容量金色 (金色)(金色)",
+                      "ProId": 115346,
+                      "ProPrice": 2299.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202008/20200828/7c12313e5c994f17a31b6841ac48429f.jpg,https://img.jdhui.com/u/images/2020/202008/20200828/558d8eff09c24ef0b4b67883d5a92963.jpg,https://img.jdhui.com/u/images/2020/202008/20200828/9185e134df0f4fe28df5fe94a5eeaa40.jpg,https://img.jdhui.com/u/images/2020/202008/20200828/0b8d7e9561d94facbe5dbed0b95809b0.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "小天鹅洗衣机（Littleswan）TD100V86WMADY5全自动家用洗烘干一体10kg水魔方滚筒(银色)(银色)",
+                      "ProId": 115345,
+                      "ProPrice": 3299.00,
+                      "Images": "https://img.jdhui.com/u/images/2019/201912/20191221/a5d08b0d84be4bdb9ad6a2b6e15235ae.jpg,https://img.jdhui.com/u/images/2019/201912/20191221/6a4a1b73c7d4453cb96c7e9bacdb1df7.jpg,https://img.jdhui.com/u/images/2019/201912/20191221/8f877cc43e564958b1a50e2de4f91560.jpg,https://img.jdhui.com/u/images/2019/201912/20191221/0e3682b70e9a40ca985e4c1388100638.jpg,https://img.jdhui.com/u/images/2019/201912/20191221/d0fadc0ba6314019bccaddd4039f2856.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  }
+              ]
+          },
+          {
+              "FloorName": "空调",
+              "CategoryId": 57,
+              "GoodsList": [
+                  {
+                      "ProName": "Haier/海尔空调 KFR-35GW/83@U1-Tm 1.5匹变频一级能效挂机空调(1.5匹)(1.5匹)",
+                      "ProId": 117030,
+                      "ProPrice": 2599.00,
+                      "Images": "https://img.jdhui.com/u/images/2021/202103/20210305/08a38c3b07034ac0b8cb71f291612fde.jpg,https://img.jdhui.com/u/images/2021/202103/20210305/a1c69804af194416838a6ca220abc4e5.jpg,https://img.jdhui.com/u/images/2021/202103/20210305/72e03fdd70aa4545926513f0c9491f91.jpg,https://img.jdhui.com/u/images/2021/202103/20210305/7ae2c43f15a048ff9a83dc84d896a309.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "奥克斯（AUX）空调 KFR-35GW/BpR3NYA19+1 大1.5匹 1级能效 变频冷暖家用挂式空调挂机(1.5匹,白色)(1.5匹,白色)",
+                      "ProId": 110733,
+                      "ProPrice": 2299.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202003/20200319/97a76a3e6f4044109076e11cb5c9f96f.jpg,https://img.jdhui.com/u/images/2020/202003/20200319/93078e2b673a42d78464e60bbc91e479.jpg,https://img.jdhui.com/u/images/2020/202003/20200319/33f79494c50c486fba7d5511b866a83f.jpg,https://img.jdhui.com/u/images/2020/202003/20200319/4d98fc7902f042c592f1f7606a77ad95.jpg,https://img.jdhui.com/u/images/2020/202003/20200319/68f5cd2090224fc6ae005de31c0fe506.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "KFR-72LW/23NTA33AT套机(3P)",
+                      "ProId": 2060610,
+                      "ProPrice": 5199.00,
+                      "Images": "https://img.jdhui.com/u/2019/201907/20190708/e7ea431e6fbe4d94a1f79a9d7f9fc46b.png,https://img.jdhui.com/u/2019/201907/20190708/f5e6ed3e5a474868b221d43a2daebd06.png,https://img.jdhui.com/u/2019/201907/20190708/57f4fca26bb5456d9a30ee5c69f62ba5.png",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  },
+                  {
+                      "ProName": "海尔统帅KFR-35GW/19MTA21ATU1\n一级变频冷暖/专利自清洁/智能变频 远距离送风(1.5p)",
+                      "ProId": 2060399,
+                      "ProPrice": 4299.00,
+                      "Images": "https://img.jdhui.com/u/2019/201906/20190626/5bdcfa15c5a54d4782654be056dfe694.jpg,https://img.jdhui.com/u/2019/201906/20190626/07f71953ea4a4a45878ea56722707021.jpg,https://img.jdhui.com/u/2019/201906/20190626/965b8b56938e4049a83860910741f233.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  },
+                  {
+                      "ProName": "海尔统帅KFR-72LW/19MTA21ATU1\n一级变频冷暖/专利自清洁/智能变频/智能操控(3P)",
+                      "ProId": 2060398,
+                      "ProPrice": 9980.00,
+                      "Images": "https://img.jdhui.com/u/2019/201906/20190626/c358639a4a934260bc354509eed9e93b.png,https://img.jdhui.com/u/2019/201906/20190626/e8278353ff1f4663b90cafed77bea205.png,https://img.jdhui.com/u/2019/201906/20190626/148113457d784f84824ac7ad128c4d8f.png",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  }
+              ]
+          },
+          {
+              "FloorName": "热水器",
+              "CategoryId": 58,
+              "GoodsList": [
+                  {
+                      "ProName": "海尔统帅LES50H-LK1(ET)(60升)",
+                      "ProId": 2059685,
+                      "ProPrice": 999.00,
+                      "Images": "https://img.jdhui.com/u/2019/201907/20190703/88f056503f1d45e8bfa956f4c7d4b6f4.jpeg,https://img.jdhui.com/u/2019/201907/20190703/9ca72189b3c34bf9a57b425708ef175f.png,https://img.jdhui.com/u/2019/201907/20190703/9790134018bd488c9e3dbe12072e893c.png,https://img.jdhui.com/u/2019/201907/20190703/f9e2f69c1ac8474ea5a431a8e39bc545.png",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  },
+                  {
+                      "ProName": "海尔统帅LES50H-LK1(ET)(50升)",
+                      "ProId": 2059684,
+                      "ProPrice": 899.00,
+                      "Images": "https://img.jdhui.com/u/2019/201907/20190703/88f056503f1d45e8bfa956f4c7d4b6f4.jpeg,https://img.jdhui.com/u/2019/201907/20190703/9ca72189b3c34bf9a57b425708ef175f.png,https://img.jdhui.com/u/2019/201907/20190703/9790134018bd488c9e3dbe12072e893c.png,https://img.jdhui.com/u/2019/201907/20190703/f9e2f69c1ac8474ea5a431a8e39bc545.png",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  },
+                  {
+                      "ProName": "海尔统帅LES50H-LK1(ET)(40升)",
+                      "ProId": 2054533,
+                      "ProPrice": 799.00,
+                      "Images": "https://img.jdhui.com/u/2019/201907/20190703/88f056503f1d45e8bfa956f4c7d4b6f4.jpeg,https://img.jdhui.com/u/2019/201907/20190703/9ca72189b3c34bf9a57b425708ef175f.png,https://img.jdhui.com/u/2019/201907/20190703/9790134018bd488c9e3dbe12072e893c.png,https://img.jdhui.com/u/2019/201907/20190703/f9e2f69c1ac8474ea5a431a8e39bc545.png",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  },
+                  {
+                      "ProName": "海尔统帅2.0防电墙热水器LES60H-LT3(整机8年保修)(白色)",
+                      "ProId": 2044791,
+                      "ProPrice": 1549.00,
+                      "Images": "https://img.jdhui.com/u/2019/201907/20190703/c9b674c523d847c6b4b7f7ffd95dd21f.png,https://img.jdhui.com/u/2019/201907/20190703/cf9d393ecc3747d3b08ae5a553e1da4c.png,https://img.jdhui.com/u/2019/201907/20190703/56374dbb00f7456f9738493a78b18a23.png,https://img.jdhui.com/u/2019/201907/20190703/ae24fd4fca514ce681aa477f49cbf459.png",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  },
+                  {
+                      "ProName": "海尔统帅瞬热电热水器LES40H-LX(U1)(整机8年免费包修)(白色)",
+                      "ProId": 2044803,
+                      "ProPrice": 4399.00,
+                      "Images": "https://img.jdhui.com/u/2019/201907/20190703/c0e3ddb2dafe48a7a446af2e018c6c06.jpeg,https://img.jdhui.com/u/2019/201907/20190703/b65a232151f54a5ea979b8c48f6ee10c.png,https://img.jdhui.com/u/2019/201907/20190703/147564db34d2404289e236eba89ac530.png,https://img.jdhui.com/u/2019/201907/20190703/ef80f1b5c91349589355713acd060507.png",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  },
+                  {
+                      "ProName": "华帝  电热水器i14021 家用2100w速热 大屏数显(50L)(50L)",
+                      "ProId": 112582,
+                      "ProPrice": 798.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202007/20200721/1f9e176b485e4086a7aebf2aebde3448.jpg,https://img.jdhui.com/u/images/2020/202007/20200721/e8c67f4083514b1baad1ff08ecad98c3.jpg,https://img.jdhui.com/u/images/2020/202007/20200721/4610067da16c409685f504094afe3b82.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  }
+              ]
+          },
+          {
+              "FloorName": "油烟机",
+              "CategoryId": 59,
+              "GoodsList": [
+                  {
+                      "ProName": "海尔统帅CXW-200-L900C0(90Cm)",
+                      "ProId": 2047486,
+                      "ProPrice": 1899.00,
+                      "Images": "https://img.jdhui.com/u/2019/201901/20190109/99a53dd8ab3043aca4a6506494c5ba35.jpg,https://img.jdhui.com/u/2019/201901/20190109/6bd721c09755403188b7e27d916ec06b.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 1
+                  },
+                  {
+                      "ProName": "方太(FOTILE)19立方侧吸式 风魔方 触控式抽油烟机燃气灶具烟灶套餐一键 瞬吸 JQC5+HT8BE (液化气)(液化气)",
+                      "ProId": 113071,
+                      "ProPrice": 3399.00,
+                      "Images": "http://imgservice4.suning.cn/uimg1/b2c/image/W8mjHCRObWf1xIf8JkeUcA.jpg_400w_400h_4e,http://imgservice2.suning.cn/uimg1/b2c/image/adtKAcM_GbWrtdtRd6V4mw.jpg_800w_800h_4e,http://imgservice3.suning.cn/uimg1/b2c/image/5bwg2-aXAR3a10kQxoCJJQ.jpg_800w_800h_4e,http://imgservice4.suning.cn/uimg1/b2c/image/VJjpRxwdFP-qM7MhhipvqQ.jpg_800w_800h_4e,http://imgservice5.suning.cn/uimg1/b2c/image/97yaPu25_L0la1KHnP5AvA.jpg_800w_800h_4e",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "方太  烟灶套组 JCD6+FD23BE(液化气)(液化气)",
+                      "ProId": 112663,
+                      "ProPrice": 3799.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202007/20200728/cffd59d232c04828a259cb61daafcc76.jpg,https://img.jdhui.com/u/images/2020/202007/20200728/d1063f3f88a54694bc26cd85cb703e4a.jpg,https://img.jdhui.com/u/images/2020/202007/20200728/be30e9dd83cb420dbc8723f36116f501.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "方太  烟灶套组 JCD6+FD23BE(天然气)(天然气)",
+                      "ProId": 112661,
+                      "ProPrice": 3799.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202007/20200728/5a01cf5a80314f92a69c5147cf0bce7f.jpg,https://img.jdhui.com/u/images/2020/202007/20200728/b8b13890a88f47658b011e0251699b2c.jpg,https://img.jdhui.com/u/images/2020/202007/20200728/ab47fe090cc84f00a1a0fa86c7ad12cf.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "美的  抽油烟机CXW-268-T57 家用21立方大吸力(欧式)(欧式)",
+                      "ProId": 112639,
+                      "ProPrice": 2799.00,
+                      "Images": "https://img.jdhui.com/u/images/2020/202007/20200724/509c8309d972409ea44bee913a084fb9.jpg,https://img.jdhui.com/u/images/2020/202007/20200724/bd8ab8015b7f4b5ea40350ff9c8deaa7.jpg,https://img.jdhui.com/u/images/2020/202007/20200724/d62deb7a26dd4cb189c380df7c2b57c5.jpg",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  },
+                  {
+                      "ProName": "方太(FOTILE)19立方侧吸式 风魔方 触控式抽油烟机燃气灶具烟灶套餐一键 瞬吸 JQC5+HT8BE 天然气(天然气)",
+                      "ProId": 112574,
+                      "ProPrice": 3399.00,
+                      "Images": "http://imgservice4.suning.cn/uimg1/b2c/image/W8mjHCRObWf1xIf8JkeUcA.jpg_400w_400h_4e,http://imgservice2.suning.cn/uimg1/b2c/image/adtKAcM_GbWrtdtRd6V4mw.jpg_800w_800h_4e,http://imgservice3.suning.cn/uimg1/b2c/image/5bwg2-aXAR3a10kQxoCJJQ.jpg_800w_800h_4e,http://imgservice4.suning.cn/uimg1/b2c/image/VJjpRxwdFP-qM7MhhipvqQ.jpg_800w_800h_4e,http://imgservice5.suning.cn/uimg1/b2c/image/97yaPu25_L0la1KHnP5AvA.jpg_800w_800h_4e",
+                      "IsSecKill": 0,
+                      "SkId": 0,
+                      "ProType": 4
+                  }
+              ]
+          }
+      ]
+  }
+}

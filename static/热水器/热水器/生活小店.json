@@ -1,0 +1,62 @@
+#1 
+{
+  "ResponseID": 0,
+  "Message": "",
+  "Data": {
+      "TotalRows": 3,
+      "TotalPages": 1,
+      "GoodsList": [
+          {
+              "ProType": 1,
+              "ProId": 2052112,
+              "ProName": "统帅厨房电器ZQD90F-3L(消毒柜)(消毒柜)",
+              "Images": "https://img.jdhui.com/u/2019/201903/20190325/6a4cb6dda570412ab62c615b15546295.jpg,https://img.jdhui.com/u/2019/201903/20190325/abf4a66022c744ebab1d82a09bdf656a.jpg,https://img.jdhui.com/u/2019/201903/20190325/d9e9c34f5cd04dc8a9719dd0b7dc3f84.jpg,https://img.jdhui.com/u/2019/201903/20190325/bfcf725e9471489d9cb38c7c7dd0e28d.jpg",
+              "SpecStr": "消毒柜",
+              "IsSecKill": 0,
+              "IsTop": 0,
+              "SkId": 0,
+              "IsHaveAcitivity": 0,
+              "ProPrice": 1599.00,
+              "PriceUnderline": 1599.00,
+              "ClubSN": "m4703407",
+              "PartnerSN": "",
+              "Amount": 10,
+              "Source": ""
+          },
+          {
+              "ProType": 4,
+              "ProId": 108439,
+              "ProName": "美的嵌入式消毒柜MXV-ZLP90Q15S(二星)(二星)",
+              "Images": "https://img.jdhui.com/u/images/2020/202003/20200319/55a29afca9ca49609707d62c39e48c9c.jpg,https://img.jdhui.com/u/images/2020/202003/20200319/0fcf58a04c4a4082bf49d8256308dfd6.jpg,https://img.jdhui.com/u/images/2020/202003/20200319/5d527708d2734e14b002497773689632.jpg,https://img.jdhui.com/u/images/2020/202003/20200319/c575440863d84c20b305d67357f65d45.jpg,https://img.jdhui.com/u/images/2020/202003/20200319/847c5a054d69498e830f6131e42480d0.jpg",
+              "SpecStr": "二星",
+              "IsSecKill": 0,
+              "IsTop": 0,
+              "SkId": 0,
+              "IsHaveAcitivity": 0,
+              "ProPrice": 999.00,
+              "PriceUnderline": 999.00,
+              "ClubSN": "m4703407",
+              "PartnerSN": "",
+              "Amount": 0,
+              "Source": "JDH"
+          },
+          {
+              "ProType": 1,
+              "ProId": 2047866,
+              "ProName": "海尔统帅厨房电器ZQD90F-2L(黑色)(黑色)",
+              "Images": "https://img.jdhui.com/u/2019/201901/20190115/ae1aa570b460444ca87465b436c258fa.jpg,https://img.jdhui.com/u/2019/201901/20190115/de36d505621d468f83968e3367bee042.jpg,https://img.jdhui.com/u/2019/201901/20190115/6395d8bc02b54bdda003fbe443157729.jpg,https://img.jdhui.com/u/2019/201901/20190115/99b947df90b5417b84121fa46b3e7b22.jpg",
+              "SpecStr": "黑色",
+              "IsSecKill": 0,
+              "IsTop": 0,
+              "SkId": 0,
+              "IsHaveAcitivity": 0,
+              "ProPrice": 1999.00,
+              "PriceUnderline": 1999.00,
+              "ClubSN": "m4703407",
+              "PartnerSN": "",
+              "Amount": 1,
+              "Source": ""
+          }
+      ]
+  }
+}

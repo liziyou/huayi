@@ -1,0 +1,23 @@
+{
+  "ResponseID": 0,
+  "Message": "",
+  "Data": {
+      "ShopLogo": "https://img.jdhui.com/u/2018/201810/20181024/915ef580ad3242c898aaa186c611161e.jpg",
+      "ShopName": "天猫优品",
+      "Contacts": "小猫",
+      "ContactsSex": "男",
+      "ContactsPhone": "18650755265",
+      "ShopDoorImage": "https://img.jdhui.com/u/2019/201905/20190526/41ed356abde448468b8e3a5734747d79.jpg",
+      "ShopInsideImage": "https://img.jdhui.com/u/2019/201905/20190526/ab74f909539f45be9ffc189235692f1e.jpg,https://img.jdhui.com/u/2019/201905/20190526/e69adf83f43f4090a63c9a2a6bf6ce42.jpg,https://img.jdhui.com/u/2019/201905/20190526/74b536521e5d4e7ebcb425598a6e517f.jpg,https://img.jdhui.com/u/2019/201905/20190526/5ec10c88750b462d90613e30e22d9e9c.jpg",
+      "ShopDesc": "欢迎光临本店，您的支持是我们最大的前进动力，本店所有产品均低价销售，并且保证质量，需要的亲请放心购买，我们一定会给您一个最舒心的购物体验！",
+      "AddressDetails": "福建省福州市福清市宏路街道欣谊佰家建材市场",
+      "AreaCode1": 350000000000,
+      "AreaCode2": 350100000000,
+      "AreaCode3": 350181000000,
+      "AreaCode4": 350181004000,
+      "AreaName1": "福建省",
+      "AreaName2": "福州市",
+      "AreaName3": "福清市",
+      "AreaName4": "龙江街道"
+  }
+}

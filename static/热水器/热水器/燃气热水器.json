@@ -1,0 +1,62 @@
+#1 
+{
+  "ResponseID": 0,
+  "Message": "",
+  "Data": {
+      "TotalRows": 3,
+      "TotalPages": 1,
+      "GoodsList": [
+          {
+              "ProType": 1,
+              "ProId": 2038484,
+              "ProName": "海尔燃气热水器JSW31-16TF1(12T)户外机(16)(16)",
+              "Images": "http://img.jdhui.com/u/2018/201811/20181119/f70e6d85c1b648f9999a3d0c0b32d8a6.jpg,http://img.jdhui.com/u/2018/201811/20181119/38d87b5934e9496687af2d225ddf85e5.jpg,http://img.jdhui.com/u/2018/201811/20181119/06d0761f030f428cb034b29240847339.jpg,http://img.jdhui.com/u/2018/201811/20181119/69c179b5735547e2b55134853281cc45.jpg",
+              "SpecStr": "16",
+              "IsSecKill": 0,
+              "IsTop": 0,
+              "SkId": 0,
+              "IsHaveAcitivity": 0,
+              "ProPrice": 5999.00,
+              "PriceUnderline": 5999.00,
+              "ClubSN": "m4703407",
+              "PartnerSN": "",
+              "Amount": 2,
+              "Source": ""
+          },
+          {
+              "ProType": 1,
+              "ProId": 2044798,
+              "ProName": "海尔统帅零冷水燃气热水器JSQ31-16LR5SWU1(整机8年免费包修)(白色)(白色)",
+              "Images": "https://img.jdhui.com/u/2019/201907/20190703/5bad1e2b836f4df1a394c2a497f2572e.jpeg,https://img.jdhui.com/u/2019/201907/20190703/e29edce7c75e46faa8d35015206f492d.png,https://img.jdhui.com/u/2019/201907/20190703/8501e76c6f974ee882c7eb11eb530c19.png,https://img.jdhui.com/u/2019/201907/20190703/88b1bcd4e81a4efeb2de79fbc9e4d02f.png",
+              "SpecStr": "白色",
+              "IsSecKill": 0,
+              "IsTop": 0,
+              "SkId": 0,
+              "IsHaveAcitivity": 0,
+              "ProPrice": 4999.00,
+              "PriceUnderline": 4999.00,
+              "ClubSN": "m4703407",
+              "PartnerSN": "",
+              "Amount": 10,
+              "Source": ""
+          },
+          {
+              "ProType": 1,
+              "ProId": 2047392,
+              "ProName": "海尔统帅燃气热水器JSQ31-16LD3S(12T)15-20L(16L天燃气)(16L天燃气)",
+              "Images": "https://img.jdhui.com/u/2019/201901/20190107/52baa6501d3d449e90e9456e0fb8f559.jpg,https://img.jdhui.com/u/2019/201901/20190107/fffb655eaa2740f2b27f88d514995298.jpg,https://img.jdhui.com/u/2019/201901/20190107/9b50f9cf17854316a45b428504bfc37c.jpg,https://img.jdhui.com/u/2019/201901/20190107/1a41efd7ba854fa69bb19c5a286a5289.jpg",
+              "SpecStr": "16L天燃气",
+              "IsSecKill": 0,
+              "IsTop": 0,
+              "SkId": 0,
+              "IsHaveAcitivity": 0,
+              "ProPrice": 4399.00,
+              "PriceUnderline": 4399.00,
+              "ClubSN": "m4703407",
+              "PartnerSN": "",
+              "Amount": 1,
+              "Source": ""
+          }
+      ]
+  }
+}
