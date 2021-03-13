@@ -133,17 +133,22 @@ export default {
       },
        */
       const addGood = {
-        id: this.getCartGoods.length + '',
+        id: this.goods.ProId,
         title: this.goods.ProName,
         price: this.goods.ProPrice,
         desc: '规格：' + this.goods.SpecStr,
         num: this.numberValue,
         thumb: this.goods.thumbs[0]
       }
+      const cartGoods = this.getCartGoods || []
+      const index = this.getCartGoods.findIndex((item) => item.id === this.goods.ProId)
+      if (index === -1) {
+        cartGoods.push(addGood)
+      } else {
+        cartGoods[index].num = cartGoods[index].num + 1
+      }
       console.log('this.getCartGoods')
       console.log(this.getCartGoods)
-      const cartGoods = this.getCartGoods || []
-      cartGoods.push(addGood)
       console.log('goods')
       console.log(this.goods)
       console.log(this.getCartGoods)

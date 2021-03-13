@@ -21,7 +21,7 @@
           :thumb="item.thumb"
         >
           <template #footer>
-            <van-stepper v-model="item.num" integer min="1" input-width="40px" />
+            <van-stepper v-model="item.num" integer min="1" input-width="40px" @change="edit => changeGoodsNum(edit, item)" />
           </template>
         </van-card>
       </van-cell>
@@ -69,31 +69,10 @@ export default {
   data() {
     return {
       goodEmpty: require('/static/images/cartEmpty.png'),
-      checkedGoods: ['1', '2', '3'],
+      checkedGoods: [],
       allChecked: false,
       showType: true,
-      goods: [{
-        id: '1',
-        title: '进口香蕉',
-        desc: '约250g，2根',
-        price: 200.00,
-        num: 1,
-        thumb: 'https://img.yzcdn.cn/public_files/2017/10/24/2f9a36046449dafb8608e99990b3c205.jpeg'
-      }, {
-        id: '2',
-        title: '陕西蜜梨',
-        desc: '约600g',
-        price: 690.00,
-        num: 1,
-        thumb: 'https://img.yzcdn.cn/public_files/2017/10/24/f6aabd6ac5521195e01e8e89ee9fc63f.jpeg'
-      }, {
-        id: '3',
-        title: '美国伽力果',
-        desc: '约680g/3个',
-        price: 2680.00,
-        num: 1,
-        thumb: 'https://img.yzcdn.cn/public_files/2017/10/24/320454216bbe9e25c7651e1fa51b31fd.jpeg'
-      }]
+      goods: []
     }
   },
   computed: {
@@ -123,14 +102,32 @@ export default {
   },
   created() {
     this.allChecked = this.checkedGoods.length === this.goods.length && this.checkedGoods.length > 0
+    this.goods = this.getCartGoods
   },
   methods: {
+    ...mapMutations({ addGoods: 'setCartGoods' }),
     formatPrice(price) {
       return (price / 100).toFixed(2)
     },
-
     onSubmit() {
-      Toast('点击结算')
+      this.$router.push({ name: 'confirm' })
+    },
+    changeGoodsNum(e, item) {
+      console.log(e, item)
+
+      const cartGoods = this.getCartGoods || []
+      const index = this.getCartGoods.findIndex((key) => key.id === item.id)
+      console.log(this.getCartGoods)
+      if (index === -1) {
+        console.log('llll')
+
+        Toast('操作有误！！！')
+      } else {
+        cartGoods[index].num = e
+        this.addGoods(cartGoods)
+      }
+      console.log('goods')
+      console.log(this.getCartGoods)
     },
     delCart() {
       console.log('his.checkedGoods')
@@ -139,12 +136,12 @@ export default {
       const arr = [...this.goods].filter(x => [...this.checkedGoods].every(y => y !== x.id))
       const check = [...this.checkedGoods].filter(x => [...arr].some(y => y.id === x))
       console.log('arr', arr)
-
       console.log('arr', arr)
       this.showType = false
       this.$nextTick(() => {
         this.showType = true
         this.goods = arr
+        this.addGoods(arr)
         this.checkedGoods = check
         this.allChecked = this.checkedGoods.length === this.goods.length && this.checkedGoods.length > 0
       })
@@ -175,6 +172,9 @@ export default {
     }
     .van-card {
       flex: 1;
+      .van-card__price {
+        color: #f44;
+      }
     }
     &-empty {
       display: flex;
@@ -210,9 +210,6 @@ export default {
     .van-checkbox__icon {
     }
 
-    .van-card__price {
-      color: #f44;
-    }
   }
 }
 .cart{

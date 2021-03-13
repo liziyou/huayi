@@ -49,6 +49,14 @@ const routes = [
     }
   },
   {
+    name: 'confirm',
+    path: '/confirm',
+    component: () => import('./view/goods/confirm.vue'),
+    meta: {
+      title: '确认订单'
+    }
+  },
+  {
     name: 'coupon',
     path: '/coupon',
     component: () => import('./view/coupon/index.vue'),
