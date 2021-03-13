@@ -50,7 +50,7 @@
       <van-goods-action-icon icon="cart-o" @click="onClickCart">
         购物车
       </van-goods-action-icon>
-      <van-goods-action-button type="warning" @click="sorry">
+      <van-goods-action-button type="warning" @click="handleAddGoods">
         加入购物车
       </van-goods-action-button>
       <van-goods-action-button type="danger" @click="sorry">
@@ -76,7 +76,7 @@ import {
   NavBar,
   GoodsActionButton
 } from 'vant'
-
+import { mapState, mapGetters, mapMutations, mapActions } from 'vuex'
 export default {
   components: {
     [Tag.name]: Tag,
@@ -98,9 +98,11 @@ export default {
       numberValue: 1,
       detail: '',
       goodsDetailTitle: '标题',
-      goods: {
-      }
+      goods: {}
     }
+  },
+  computed: {
+    ...mapGetters(['getCartGoods'])
   },
   created() {
     this.getDetail()
@@ -109,6 +111,7 @@ export default {
   },
 
   methods: {
+    ...mapMutations({ addGoods: 'setCartGoods' }),
     onClickLeft() {
       this.$router.back(-1)
     },
@@ -118,7 +121,34 @@ export default {
     onClickCart() {
       this.$router.push('cart')
     },
-
+    handleAddGoods() {
+      /**
+       * goods: [{
+        id: '1',
+        title: '进口香蕉',
+        desc: '约250g，2根',
+        price: 200.00,
+        num: 1,
+        thumb: 'https://img.yzcdn.cn/public_files/2017/10/24/2f9a36046449dafb8608e99990b3c205.jpeg'
+      },
+       */
+      const addGood = {
+        id: this.getCartGoods.length + '',
+        title: this.goods.ProName,
+        price: this.goods.ProPrice,
+        desc: '规格：' + this.goods.SpecStr,
+        num: this.numberValue,
+        thumb: this.goods.thumbs[0]
+      }
+      console.log('this.getCartGoods')
+      console.log(this.getCartGoods)
+      const cartGoods = this.getCartGoods || []
+      cartGoods.push(addGood)
+      console.log('goods')
+      console.log(this.goods)
+      console.log(this.getCartGoods)
+      this.addGoods(cartGoods)
+    },
     sorry() {
       Toast('暂无后续逻辑~')
     },

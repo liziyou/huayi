@@ -51,7 +51,7 @@
 
 <script>
 import { Checkbox, CheckboxGroup, Card, SubmitBar, Toast, Tag, Button, NavBar, Icon, Stepper, Cell } from 'vant'
-
+import { mapState, mapGetters, mapMutations, mapActions } from 'vuex'
 export default {
   components: {
     [NavBar.name]: NavBar,
@@ -96,8 +96,8 @@ export default {
       }]
     }
   },
-
   computed: {
+    ...mapGetters(['getCartGoods']),
     submitBarText() {
       const count = this.checkedGoods.length
       return '结算' + (count ? `(${count})` : '')
