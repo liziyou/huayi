@@ -108,23 +108,6 @@
               "Source": ""
           },
           {
-              "ProType": 1,
-              "ProId": 37501,
-              "ProName": "海尔HZR400-2W(Q)(办公室)(办公室)",
-              "Images": "https://image.jdhui.com/goods/17/25/c747b6e87193422789712860275e6ef6.jpg,https://img.jdhui.com/u/2019/201907/20190704/da786cdd7ff543f8a77f7f386f71f7a4.jpg",
-              "SpecStr": "办公室",
-              "IsSecKill": 0,
-              "IsTop": 0,
-              "SkId": 0,
-              "IsHaveAcitivity": 0,
-              "ProPrice": 13999.00,
-              "PriceUnderline": 13999.00,
-              "ClubSN": "m4703407",
-              "PartnerSN": "",
-              "Amount": 1,
-              "Source": ""
-          },
-          {
             "ProType": 1,
             "ProId": 37438,
             "ProName": "海尔HRO400-4(C)金色(厨房台下式)(厨房台下式)",
@@ -347,23 +330,6 @@
         },
         {
             "ProType": 1,
-            "ProId": 37446,
-            "ProName": "海尔HRO105-600G(商用)(商用)",
-            "Images": "https://image.jdhui.com/test/32/5/b128953ad6514b4c90f3be271cc48cf4.jpg,https://image.jdhui.com/test/34/27/b60e638aaca743dfa79eb2b562d734c7.jpg,https://image.jdhui.com/test/31/29/3c489e3c07cf4e32baa9a9b1f99dd9f1.jpg",
-            "SpecStr": "商用",
-            "IsSecKill": 0,
-            "IsTop": 0,
-            "SkId": 0,
-            "IsHaveAcitivity": 0,
-            "ProPrice": 18800.00,
-            "PriceUnderline": 18800.00,
-            "ClubSN": "m4703407",
-            "PartnerSN": "",
-            "Amount": 2,
-            "Source": ""
-        },
-        {
-            "ProType": 1,
             "ProId": 37482,
             "ProName": "海尔施特劳斯HSNF-1500P2 (400)(厨房台下式)(厨房台下式)",
             "Images": "https://image.jdhui.com/goods/18/15/a98f32ba10a645928288b8dce295f43b.png,https://image.jdhui.com/goods/19/31/0149c1c0a5314e4094147e5ee608907e.png,https://image.jdhui.com/goods/10/32/1154744e9b6748cda5b9043c91901a2c.png,https://image.jdhui.com/goods/34/16/4d3d7eb3b7d941b4865b2cd311bd0fff.png",
@@ -394,23 +360,6 @@
             "ClubSN": "m4703407",
             "PartnerSN": "",
             "Amount": 2,
-            "Source": ""
-        },
-        {
-            "ProType": 1,
-            "ProId": 37447,
-            "ProName": "海尔全屋净水HU601-3500(全屋净水)(全屋净水)",
-            "Images": "https://image.jdhui.com/test/28/28/0a22130a969b41099e124eaad9ee95fd.jpg,https://image.jdhui.com/test/26/15/87a50b6d4dbf445eaf1917cade1caf04.jpg,https://image.jdhui.com/test/18/33/4c400f929a4d4fe28bb73e6eb662628c.jpg,https://image.jdhui.com/test/12/29/9b94fa52276c477f80a251445294afaf.jpg",
-            "SpecStr": "全屋净水",
-            "IsSecKill": 0,
-            "IsTop": 0,
-            "SkId": 0,
-            "IsHaveAcitivity": 0,
-            "ProPrice": 13999.00,
-            "PriceUnderline": 13999.00,
-            "ClubSN": "m4703407",
-            "PartnerSN": "",
-            "Amount": 3,
             "Source": ""
         },
         {
@@ -717,23 +666,6 @@
             "ClubSN": "m4703407",
             "PartnerSN": "",
             "Amount": 20,
-            "Source": ""
-        },
-        {
-            "ProType": 1,
-            "ProId": 37436,
-            "ProName": "海尔HRO400-5(升级)灰色(厨房台下式)(厨房台下式)",
-            "Images": "https://image.jdhui.com/goods/7/0/9e2bd24582804869b69f9d19d7bc47d2.png,https://image.jdhui.com/goods/7/23/2e1906fa243b4801aaba884b96fb7a94.png,https://image.jdhui.com/goods/12/30/6f9b4f6865df4d5896a15c99486f0f39.png,https://image.jdhui.com/goods/18/2/a99493755f9d48fab26a21dd7349ed07.png",
-            "SpecStr": "厨房台下式",
-            "IsSecKill": 0,
-            "IsTop": 0,
-            "SkId": 0,
-            "IsHaveAcitivity": 0,
-            "ProPrice": 4699.00,
-            "PriceUnderline": 4699.00,
-            "ClubSN": "m4703407",
-            "PartnerSN": "",
-            "Amount": 25,
             "Source": ""
         },
         {

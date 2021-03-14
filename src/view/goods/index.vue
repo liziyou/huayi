@@ -74,6 +74,17 @@ export default {
     console.log('getCurrentBar')
     console.log(this.getCurrentBar)
     this.activeKey = this.currentBar.activeKey
+    if (this.$route.query.activeKey) {
+      this.activeKey = Number(this.$route.query.activeKey)
+      console.log('current-----')
+      console.log(this.activeKey)
+
+      const current = this.categoryData[this.activeKey]
+      console.log('current------')
+      console.log(current)
+
+      this.changeSibebar(this.activeKey)
+    }
   },
   methods: {
     formatPrice() {
@@ -93,13 +104,11 @@ export default {
         key: this.value
       }})
     },
-    ...mapMutations({ add: 'increment',
-      setbar: 'setCurrentBar' }),
+    ...mapMutations({ setbar: 'setCurrentBar' }),
     changeSibebar(e) {
       console.log('categoryData')
       console.log(this.categoryData[e])
       this.currentSidebar = this.categoryData[e]
-      this.add()
       this.currentSidebar.activeKey = this.activeKey
       console.log('this.currentSidebar')
       console.log(this.currentSidebar)

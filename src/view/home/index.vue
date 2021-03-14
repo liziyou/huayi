@@ -34,9 +34,9 @@
       </van-col>
     </van-row>
     <div class="classify">
-      <div v-for="(classify) in imgFloors" :key="classify.CategoryId" class="classify-content">
+      <div v-for="(classify, index) in imgFloors" :key="classify.CategoryId" class="classify-content">
         <div class="classify-head">
-          <van-cell value="查看更多" is-link>
+          <van-cell value="查看更多" is-link @click="handleClassifyMore(classify,index)">
             <!-- 使用 title 插槽来自定义标题 -->
             <template #title>
               <span class="custom-title">{{ classify.FloorName }}</span>
@@ -128,6 +128,17 @@ export default {
         ProId: item.ProId,
         CategoryId: classify.CategoryId
       }})
+    },
+    handleClassifyMore(item, index) {
+      console.log('lll')
+      console.log(item)
+      if (index > 0) {
+        index = index - 1
+      }
+      this.$router.push({ name: 'goods',
+        query: {
+          activeKey: index
+        }})
     }
   }
 }

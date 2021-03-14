@@ -109,6 +109,8 @@ const routes = [
 
   {
     name: 'goods',
+    path: '/goods',
+    redirect: 'goods',
     component: () => import('./view/home/layout-footer.vue'),
     meta: {
       title: '商品详情'
