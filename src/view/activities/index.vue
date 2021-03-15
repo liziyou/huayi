@@ -15,7 +15,7 @@
       </template>
     </van-search>
     <van-tabs v-model="active" @change="changeTab">
-      <van-tab v-for="(item,index) in activeList" :key="index">
+      <van-tab v-for="(item, index) in activeList" :key="index">
         <template #title>
           <div class="activities-sort">
             {{ item.name }}
@@ -24,14 +24,23 @@
             </div>
           </div>
         </template>
-        <van-pull-refresh v-model="isLoading" :head-height="80" @refresh="onRefresh">
+        <van-pull-refresh
+          v-model="isLoading"
+          :head-height="80"
+          @refresh="onRefresh"
+        >
           <!-- 下拉提示，通过 scale 实现一个缩放效果 -->
           <template>
             <van-cell>
               <!-- 使用 title 插槽来自定义标题 -->
               <template #title class="">
                 <div class="goods-list-box">
-                  <div v-for="goods in searchList" :key="goods.ProId" class="goods-list-item" @click="goDetail(goods)">
+                  <div
+                    v-for="goods in searchList"
+                    :key="goods.ProId"
+                    class="goods-list-item"
+                    @click="goDetail(goods)"
+                  >
                     <div class="img-box">
                       <img :src="filterImg(goods.Images)">
                     </div>
@@ -40,9 +49,11 @@
                         {{ goods.ProName }}
                       </p>
                       <p class="text-light text-ellipsis">
-                        <span class="goods-spec">规格：{{ goods.SpecStr }}</span>
+                        <span
+                          class="goods-spec"
+                        >规格：{{ goods.SpecStr }}</span>
                       </p>
-                      <div class="origin-price ">
+                      <div class="origin-price">
                         ¥
                         <span class="price text-small">
                           <span class="price-large">{{ goods.ProPrice }}</span>
@@ -51,7 +62,7 @@
                       </div>
                     </div>
                   </div>
-                  <div v-if="searchList.length<1" class="table-data-empty">
+                  <div v-if="searchList.length < 1" class="table-data-empty">
                     暂无相关数据
                   </div>
                 </div>
@@ -65,7 +76,20 @@
 </template>
 
 <script>
-import { Row, Col, Icon, Cell, CellGroup, NavBar, Tabbar, TabbarItem, Search, Tabs, Tab, PullRefresh } from 'vant'
+import {
+  Row,
+  Col,
+  Icon,
+  Cell,
+  CellGroup,
+  NavBar,
+  Tabbar,
+  TabbarItem,
+  Search,
+  Tabs,
+  Tab,
+  PullRefresh
+} from 'vant'
 
 export default {
   components: {
@@ -115,19 +139,20 @@ export default {
   methods: {
     onSearch() {
       const url = 'https://api.jdhui.com/api/JdhOrder/SearchB2c'
-      this.$ajax.post(url, {
-        SortType: this.searchSortType,
-        clubSN: 'M4703407',
-        key: this.searchValue
-      }).then((res) => {
-        console.log('res')
-        console.log(res)
-        this.searchList = res.data.Data.GoodsList
-        console.log('this.searchList')
-        console.log(this.searchList)
-      }).catch((err) => {
-
-      })
+      this.$ajax
+        .post(url, {
+          SortType: this.searchSortType,
+          clubSN: 'M4703407',
+          key: this.searchValue
+        })
+        .then((res) => {
+          console.log('res')
+          console.log(res)
+          this.searchList = res.data.Data.GoodsList
+          console.log('this.searchList')
+          console.log(this.searchList)
+        })
+        .catch((err) => {})
     },
     sortGoods() {
       this.sortType = this.sortType === 'down' ? 'up' : 'down'
@@ -149,10 +174,12 @@ export default {
     goDetail(item) {
       console.log('item--- ')
 
-      this.$router.push({ name: 'detail', query:
-      {
-        ProId: item.ProId
-      }})
+      this.$router.push({
+        name: 'detail',
+        query: {
+          ProId: item.ProId
+        }
+      })
     }
   }
 }
@@ -161,7 +188,7 @@ export default {
 <style lang="less" scope>
 .activities {
   .van-tab--active {
-    color: #FE3A3B;
+    color: #fe3a3b;
   }
   .van-cell {
     background: #f8f8f8;
@@ -173,13 +200,13 @@ export default {
       align-items: center;
       justify-content: left;
       flex-direction: column;
-      .sort{
+      .sort {
         position: absolute;
         top: 29px;
         margin-left: 25px;
       }
       .sort::before {
-        content: '';
+        content: "";
         position: absolute;
         left: -5px;
         margin-top: -12px;
@@ -190,7 +217,7 @@ export default {
         border-right-color: transparent;
       }
       .sort::after {
-        content: '';
+        content: "";
         position: absolute;
         left: -5px;
         margin-top: -5px;
@@ -201,12 +228,12 @@ export default {
         border-right-color: transparent;
       }
       .down::after {
-        border-color:#FE3A3B;
+        border-color: #fe3a3b;
         border-left-color: transparent;
         border-right-color: transparent;
       }
       .up::before {
-        border-color:#FE3A3B;
+        border-color: #fe3a3b;
         border-left-color: transparent;
         border-right-color: transparent;
       }
@@ -220,25 +247,25 @@ export default {
       vertical-align: top;
       table-layout: fixed;
       border-spacing: 0;
-      .img-box{
+      .img-box {
         position: relative;
         display: table-cell;
         width: 110px;
         height: 100px;
         padding-right: 15px;
         box-sizing: content-box;
-        img{
+        img {
           height: 100%;
           width: 100%;
         }
       }
-      .info{
+      .info {
         position: relative;
         display: table-cell;
         vertical-align: top;
         flex: 1;
         font-size: 14px;
-        .title{
+        .title {
           display: -webkit-box;
           -webkit-box-orient: vertical;
           -webkit-line-clamp: 2;
@@ -251,18 +278,18 @@ export default {
           overflow: hidden;
           -ms-text-overflow: ellipsis;
           text-overflow: ellipsis;
-          .goods-spec{
+          .goods-spec {
             display: inline-block;
             padding: 2px 4px;
             margin-top: 4px;
             line-height: 1;
             font-size: 12px;
             border-radius: 4px;
-            background: #F8F9FB;
+            background: #f8f9fb;
           }
         }
         .origin-price {
-          color: #FE3A3B;
+          color: #fe3a3b;
           position: absolute;
           width: 100%;
           bottom: 0;

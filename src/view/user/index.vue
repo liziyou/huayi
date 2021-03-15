@@ -12,7 +12,12 @@
       <p>用户名</p>
     </div>
     <van-row class="user-img">
-      <van-col v-for="img in payImgs" :key="img.id" span="4" @click="goOrder(img)">
+      <van-col
+        v-for="img in payImgs"
+        :key="img.id"
+        span="4"
+        @click="goOrder(img)"
+      >
         <div class="item">
           <img :src="img.url">
           {{ img.name }}
@@ -20,7 +25,12 @@
       </van-col>
     </van-row>
     <van-cell-group class="user-group">
-      <van-cell icon="orders-o" title="全部订单" is-link @click="goOrder({id: 0})" />
+      <van-cell
+        icon="orders-o"
+        title="全部订单"
+        is-link
+        @click="goOrder({ id: 0 })"
+      />
     </van-cell-group>
     <van-cell-group>
       <van-cell icon="location-o" title="地址管理" is-link to="/address" />
@@ -47,7 +57,8 @@ export default {
     return {
       avatar: require('/static/images/default-headImg.png'),
       bgImg: {
-        backgroundImage: 'url(' + require('/static/images/bg_mycenter.png') + ')',
+        backgroundImage:
+          'url(' + require('/static/images/bg_mycenter.png') + ')',
         backgroundSize: '100% 100%'
       },
       userBgImg: require('/static/images/bg_mycenter.png'),
@@ -87,10 +98,12 @@ export default {
   },
   methods: {
     goOrder(img) {
-      this.$router.push({ name: 'order', query:
-      {
-        search: img.id
-      }})
+      this.$router.push({
+        name: 'order',
+        query: {
+          search: img.id
+        }
+      })
     },
     handleClose() {
       try {
